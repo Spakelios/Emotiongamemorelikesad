@@ -10,9 +10,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/HideButton.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/PauseMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/ScoreManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialoguePause.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/HideButton.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />
@@ -58,6 +65,7 @@
       <updated>1634759896102</updated>
       <workItem from="1634759917667" duration="292000" />
       <workItem from="1634762492868" duration="576000" />
+      <workItem from="1634764644508" duration="3288000" />
     </task>
     <servers />
   </component>

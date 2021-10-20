@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.UIElements;
 
 public class DialogueManager : MonoBehaviour
 {
 
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
+    public GameObject box;
+    public GameObject button;
 
     public Animator animator;
 
@@ -61,6 +64,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        animator.SetBool("IsOpen", false);
+        box.SetActive(false);
+        button.SetActive(false);
     }
 }
