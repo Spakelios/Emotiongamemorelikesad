@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public CharacterController2D controller;
+    public Animator animator;
 
     float horizontalMove = 0f;
 
@@ -19,6 +20,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runspeed;
+
+
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
         Input.GetAxisRaw("Vertical");
 
         if (Input.GetButtonDown("Jump"))
