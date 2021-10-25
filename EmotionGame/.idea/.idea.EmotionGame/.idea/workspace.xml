@@ -20,10 +20,10 @@
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
       <option value="$PROJECT_DIR$/Assets/HideButton.cs" />
       <option value="$PROJECT_DIR$/Assets/endgame.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/ScoreManager.cs" />
       <option value="$PROJECT_DIR$/Assets/dont.cs" />
       <option value="$PROJECT_DIR$/Assets/DontDestroy.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Timer.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/ScoreManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />
@@ -73,7 +73,7 @@
       <workItem from="1634810829430" duration="1000" />
       <workItem from="1634810930305" duration="624000" />
       <workItem from="1635169796341" duration="4320000" />
-      <workItem from="1635174263544" duration="330000" />
+      <workItem from="1635174263544" duration="736000" />
     </task>
     <servers />
   </component>
