@@ -189,6 +189,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4716143645707331659, guid: 18280eab40e1a1046ad0fe3b4664a966, type: 3}
   m_PrefabInstance: {fileID: 1969361521}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &290913570 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4716143645707333555, guid: 18280eab40e1a1046ad0fe3b4664a966, type: 3}
+  m_PrefabInstance: {fileID: 1969361521}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &290913577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,6 +287,10 @@ PrefabInstance:
     - target: {fileID: 7398228097401734760, guid: 7ae74838804592a4b9582aaeb9af4eec, type: 3}
       propertyPath: m_Constraints
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398228097401734762, guid: 7ae74838804592a4b9582aaeb9af4eec, type: 3}
+      propertyPath: animator
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7398228097401734762, guid: 7ae74838804592a4b9582aaeb9af4eec, type: 3}
       propertyPath: m_Enabled
@@ -779,6 +788,14 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6323182301816327682, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 486
+      objectReference: {fileID: 0}
+    - target: {fileID: 6323182301816327682, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 156
+      objectReference: {fileID: 0}
     - target: {fileID: 6811671998391788505, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: dialogue.sentences.Array.size
       value: 3
@@ -826,6 +843,14 @@ PrefabInstance:
     - target: {fileID: 6811671999415238225, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: m_Color.r
       value: 0.6901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 7595600024405625109, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -307
+      objectReference: {fileID: 0}
+    - target: {fileID: 7595600024405625109, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -165
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
@@ -999,7 +1024,7 @@ Transform:
   m_Children:
   - {fileID: 883801297}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &865550148 stripped
 MonoBehaviour:
@@ -1089,25 +1114,6 @@ PrefabInstance:
       objectReference: {fileID: 882065955}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cb5ee98bb81f2b4aac01e4b20727281, type: 3}
---- !u!1 &875443995 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7398228097401733524, guid: 7ae74838804592a4b9582aaeb9af4eec, type: 3}
-  m_PrefabInstance: {fileID: 359641584}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &875444005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875443995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc650a57f477e5642a1f5f08268dbf28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Button: {fileID: 992513609}
-  box: {fileID: 2127339216}
 --- !u!114 &882065955 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6811671999285459321, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
@@ -15090,7 +15096,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264294486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.62, y: -10.37, z: 0}
+  m_LocalPosition: {x: -2.6, y: -6.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15515,7 +15521,11 @@ PrefabInstance:
     - target: {fileID: 6581599137228544674, guid: 029d166b0338d5949bfd64b4f6c90b04, type: 3}
       propertyPath: text
       value: 
-      objectReference: {fileID: 1823212024}
+      objectReference: {fileID: 1836197305}
+    - target: {fileID: 6581599137228544674, guid: 029d166b0338d5949bfd64b4f6c90b04, type: 3}
+      propertyPath: Score
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6581599137228544675, guid: 029d166b0338d5949bfd64b4f6c90b04, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -15582,11 +15592,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6581599137228544675, guid: 029d166b0338d5949bfd64b4f6c90b04, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 389
+      value: 390.4
       objectReference: {fileID: 0}
     - target: {fileID: 6581599137228544675, guid: 029d166b0338d5949bfd64b4f6c90b04, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 172
+      value: 118.7
       objectReference: {fileID: 0}
     - target: {fileID: 6581599137228544675, guid: 029d166b0338d5949bfd64b4f6c90b04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15817,9 +15827,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1823212024 stripped
+--- !u!114 &1836197305 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6071800223730832644, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
+  m_CorrespondingSourceObject: {fileID: 2716643067869948984, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
   m_PrefabInstance: {fileID: 654600508}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -15950,6 +15960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 4716143645707333557, guid: 18280eab40e1a1046ad0fe3b4664a966, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 290913570}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18280eab40e1a1046ad0fe3b4664a966, type: 3}
 --- !u!1 &2062303010

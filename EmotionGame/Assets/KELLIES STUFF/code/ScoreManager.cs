@@ -15,6 +15,7 @@ public class ScoreManager : MonoBehaviour
         {
             instance = this;
         }
+       
 
     }
     public void ChangeScore(int enemyHit)

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff14ad1c-2f3c-4cf6-9221-fe3b6a50a3ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmotionGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmotionGame/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmotionGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmotionGame/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff14ad1c-2f3c-4cf6-9221-fe3b6a50a3ca" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,15 +11,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/HideButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/PauseMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/ScoreManager.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialoguePause.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
       <option value="$PROJECT_DIR$/Assets/HideButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/endgame.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/ScoreManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/dont.cs" />
+      <option value="$PROJECT_DIR$/Assets/DontDestroy.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Timer.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />
@@ -71,6 +72,8 @@
       <workItem from="1634764644508" duration="3288000" />
       <workItem from="1634810829430" duration="1000" />
       <workItem from="1634810930305" duration="624000" />
+      <workItem from="1635169796341" duration="4320000" />
+      <workItem from="1635174263544" duration="330000" />
     </task>
     <servers />
   </component>
