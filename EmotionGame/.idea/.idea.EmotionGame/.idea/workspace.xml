@@ -12,7 +12,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/KELLIES STUFF/code/GameMaster.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerPos.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -32,9 +31,14 @@
       <option value="$PROJECT_DIR$/Assets/QUITGAME.cs" />
       <option value="$PROJECT_DIR$/Assets/RESTART.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/GameMaster.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Checkpoint.cs" />
-      <option value="$PROJECT_DIR$/Assets/Checkpoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/RestartFromCheckpoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/PauseMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Died.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/RESTART.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerPos.cs" />
+      <option value="$PROJECT_DIR$/Assets/Checkpoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Checkpoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Player.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />
@@ -87,7 +91,7 @@
       <workItem from="1635174263544" duration="736000" />
       <workItem from="1635180593807" duration="1307000" />
       <workItem from="1635183743796" duration="2948000" />
-      <workItem from="1635187993698" duration="2001000" />
+      <workItem from="1635187993698" duration="8174000" />
     </task>
     <servers />
   </component>

@@ -9,19 +9,20 @@ public class Player : MonoBehaviour
 
     public int maxHealth = 100;
     public int currentHealth;
-   
+    public GameObject YouDied;
+    public Vector3 respawnPoint;
 
     public HealthBar healthBar;
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene("END SCREEN");
+            transform.position = respawnPoint;
         }
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -30,7 +31,18 @@ public class Player : MonoBehaviour
         {
             TakeDamage(10);
         }
+
+        if (other.gameObject.CompareTag("Checkpoint"))
+        {
+            respawnPoint = other.transform.position;
+        }
     }
+    //  if (currentHealth <= 0)
+
+        //{
+       //     Pause();
+      //  }
+    
 
     // Update is called once per frame
     void Update()
@@ -41,8 +53,14 @@ public class Player : MonoBehaviour
         }
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene("END SCREEN");
+            transform.position = respawnPoint;
         }
+     //   if (currentHealth <= 0)
+
+     //   {
+      //      Pause();
+      //  }
+        
     }
 
     void TakeDamage(int damage)
@@ -51,4 +69,13 @@ public class Player : MonoBehaviour
 
         healthBar.SetHealth(currentHealth);
     }
+    
+   // void Pause()
+
+    //{
+    //    YouDied.SetActive(true);
+     //   Time.timeScale = 0f;
+   // }
+
+
 }
