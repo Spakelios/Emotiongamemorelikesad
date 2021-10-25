@@ -24,6 +24,8 @@
       <option value="$PROJECT_DIR$/Assets/DontDestroy.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/ScoreManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Code/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Code/Player.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />
@@ -74,6 +76,7 @@
       <workItem from="1634810930305" duration="624000" />
       <workItem from="1635169796341" duration="4320000" />
       <workItem from="1635174263544" duration="736000" />
+      <workItem from="1635180593807" duration="1307000" />
     </task>
     <servers />
   </component>

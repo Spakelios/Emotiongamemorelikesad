@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Player : MonoBehaviour
 {
 
     public int maxHealth = 100;
     public int currentHealth;
+   
 
     public HealthBar healthBar;
 
@@ -15,6 +18,10 @@ public class Player : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        if (currentHealth <= 0)
+        {
+            SceneManager.LoadScene("END SCREEN");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -31,6 +38,10 @@ public class Player : MonoBehaviour
         if (gameObject.CompareTag("Enemy"))
         {
             TakeDamage(10);
+        }
+        if (currentHealth <= 0)
+        {
+            SceneManager.LoadScene("END SCREEN");
         }
     }
 

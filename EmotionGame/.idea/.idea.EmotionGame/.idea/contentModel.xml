@@ -26,6 +26,7 @@
             <e p="endgame.cs" t="Include" />
             <e p="HideButton.cs" t="Include" />
             <e p="Hit.cs" t="Include" />
+            <e p="ParallaxScript.cs" t="Include" />
             <e p="ProjectileBehaviour.cs" t="Include" />
             <e p="ScoreManager.cs" t="Include" />
             <e p="Timer.cs" t="Include" />
