@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/KELLIES STUFF/scenes/END SCREEN.unity
     guid: dcb29838bd9f5604f9ae6853c8885e85
+  - enabled: 1
+    path: Assets/KELLIES STUFF/scenes/START SCREEN.unity
+    guid: 7e7064fb0efe2c44d9107a2cf60428bc
+  - enabled: 1
+    path: Assets/KELLIES STUFF/scenes/Parallax test.unity
+    guid: 6eb8a7c59c49d754ca2bd157fda6be34
   m_configObjects: {}
