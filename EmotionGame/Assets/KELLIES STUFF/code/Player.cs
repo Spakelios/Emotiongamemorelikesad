@@ -10,7 +10,6 @@ public class Player : MonoBehaviour
 
     public int maxHealth = 100;
     public int currentHealth;
-    public GameObject YouDied;
     public Vector3 respawnPoint;
 
     public HealthBar healthBar;
@@ -39,13 +38,6 @@ private void OnTriggerEnter2D(Collider2D other)
         {
             transform.position = respawnPoint;
         }
-
-        //
-        // if (currentHealth <= 0)
-        //
-        // {
-        //     Pause();
-        // }
     }
 
     void Update()
@@ -54,19 +46,8 @@ private void OnTriggerEnter2D(Collider2D other)
         {
             TakeDamage(10);
         }
-      
-        //
-        // if (currentHealth <= 0)
-        // {
-        //     transform.position = respawnPoint;
-        //
-        // }
         
-        // if (currentHealth <= 0)
-        //
-        // {
-        //     Pause();
-        // }
+        
     }
     
 
@@ -77,13 +58,6 @@ private void OnTriggerEnter2D(Collider2D other)
             healthBar.SetHealth(currentHealth);
             
         }
-
-       // void Pause()
-       //
-       // {
-       //     YouDied.SetActive(true);
-       //     Time.timeScale = 1f;
-       //
-       // }
+    
 
     }
