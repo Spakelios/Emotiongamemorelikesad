@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
+
 public class Timer : MonoBehaviour
 {  
+    public GameObject YouDied;
     float currentTime = 0f;
     float startingTime = 100f;
 
@@ -17,7 +19,7 @@ public class Timer : MonoBehaviour
         currentTime = startingTime;
         if (currentTime <= 0f)
         {
-            SceneManager.LoadScene("END SCREEN");
+            YouDied.SetActive(true);
         }
     }
     
@@ -27,7 +29,8 @@ public class Timer : MonoBehaviour
         countdownText.text = currentTime.ToString();
         if (currentTime <= 0f)
         {
-            SceneManager.LoadScene("END SCREEN");
+            YouDied.SetActive(true);
         }
     }
 }
+

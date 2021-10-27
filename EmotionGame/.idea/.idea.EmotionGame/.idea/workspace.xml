@@ -23,7 +23,6 @@
       <option value="$PROJECT_DIR$/Assets/endgame.cs" />
       <option value="$PROJECT_DIR$/Assets/dont.cs" />
       <option value="$PROJECT_DIR$/Assets/DontDestroy.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/ScoreManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Code/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Code/Player.cs" />
@@ -38,6 +37,7 @@
       <option value="$PROJECT_DIR$/Assets/PlayerPos.cs" />
       <option value="$PROJECT_DIR$/Assets/Checkpoint.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Checkpoint.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Player.cs" />
     </changedPaths>
   </component>
@@ -52,6 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -92,6 +93,7 @@
       <workItem from="1635180593807" duration="1307000" />
       <workItem from="1635183743796" duration="2948000" />
       <workItem from="1635187993698" duration="8174000" />
+      <workItem from="1635345644819" duration="3607000" />
     </task>
     <servers />
   </component>

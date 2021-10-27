@@ -8,8 +8,8 @@ public class Checkpoint : MonoBehaviour
 {
     public bool CheckpointReached;
     private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.TryGetComponent<Player>(out Player player))
+    {  
+        if (other.CompareTag("Player"))
         {
             Debug.Log("checkpoint!");
             CheckpointReached = true;
