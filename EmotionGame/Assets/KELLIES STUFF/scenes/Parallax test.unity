@@ -282,8 +282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 399302229bb47e648a3f9d9aaf796989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 100
+  maxHealth: 95
+  currentHealth: 95
   respawnPoint: {x: 0, y: 0, z: 0}
   healthBar: {fileID: 407230671}
 --- !u!1 &311484301

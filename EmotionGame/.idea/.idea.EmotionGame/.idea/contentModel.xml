@@ -28,7 +28,6 @@
             <e p="ParallaxScript.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
             <e p="Player.cs" t="Include" />
-            <e p="ProjectileBehaviour.cs" t="Include" />
             <e p="QUITGAME.cs" t="Include" />
             <e p="RESTART.cs" t="Include" />
             <e p="ScoreManager.cs" t="Include" />

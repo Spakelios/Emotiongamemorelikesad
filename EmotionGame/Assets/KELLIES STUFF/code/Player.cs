@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
@@ -7,25 +8,25 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-
-    public int maxHealth = 100;
+    
+    public int maxHealth;
     public int currentHealth;
     public Vector3 respawnPoint;
 
     public HealthBar healthBar;
 
-    void Start()
+    private void Awake()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
 
 
-private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            TakeDamage(10);
+            TakeDamage(90);
         }
 
         if (other.gameObject.CompareTag("Checkpoint"))
@@ -33,12 +34,13 @@ private void OnTriggerEnter2D(Collider2D other)
             respawnPoint = other.transform.position;
         }
 
-        if (other.CompareTag("Enemy"))
+        if (currentHealth <= 5)
 
         {
-            transform.position = respawnPoint;
+            Respawn();
         }
     }
+
 
     void Update()
     {
@@ -46,18 +48,20 @@ private void OnTriggerEnter2D(Collider2D other)
         {
             TakeDamage(10);
         }
-        
-        
     }
-    
 
     void TakeDamage(int damage)
-        {
-            currentHealth -= damage;
+    {
+        currentHealth -= damage;
 
-            healthBar.SetHealth(currentHealth);
-            
-        }
-    
+        healthBar.SetHealth(currentHealth);
 
     }
+
+    void Respawn()
+    {
+        transform.position = respawnPoint; 
+        currentHealth = maxHealth;
+
+    }
+}
