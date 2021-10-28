@@ -18,7 +18,6 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/PauseMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialoguePause.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
       <option value="$PROJECT_DIR$/Assets/HideButton.cs" />
       <option value="$PROJECT_DIR$/Assets/endgame.cs" />
       <option value="$PROJECT_DIR$/Assets/dont.cs" />
@@ -37,9 +36,12 @@
       <option value="$PROJECT_DIR$/Assets/PlayerPos.cs" />
       <option value="$PROJECT_DIR$/Assets/Checkpoint.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Checkpoint.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/HideButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />
@@ -100,6 +102,9 @@
       <workItem from="1635355331235" duration="327000" />
       <workItem from="1635355937557" duration="369000" />
       <workItem from="1635356427227" duration="455000" />
+      <workItem from="1635436032427" duration="1648000" />
+      <workItem from="1635439945196" duration="2306000" />
+      <workItem from="1635442508355" duration="867000" />
     </task>
     <servers />
   </component>
