@@ -1,8 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.iOS;
 using UnityEngine.UIElements;
 
 public class DialogueManager : MonoBehaviour
@@ -11,8 +14,6 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public GameObject box;
-    public GameObject button;
-
     public Animator animator;
 
     private Queue<string> sentences;
@@ -25,19 +26,23 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        animator.SetBool("IsOpen", true);
 
-        nameText.text = dialogue.name;
+        
+            animator.SetBool("IsOpen", true);
 
-        sentences.Clear();
+            nameText.text = dialogue.name;
 
-        foreach (string sentence in dialogue.sentences)
-        {
-            sentences.Enqueue(sentence);
-        }
+            sentences.Clear();
 
-        DisplayNextSentence();
+            foreach (string sentence in dialogue.sentences)
+            {
+                sentences.Enqueue(sentence);
+            }
+
+            DisplayNextSentence();
+        
     }
+
 
     public void DisplayNextSentence()
     {
@@ -65,6 +70,5 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         box.SetActive(false);
-        button.SetActive(false);
     }
 }

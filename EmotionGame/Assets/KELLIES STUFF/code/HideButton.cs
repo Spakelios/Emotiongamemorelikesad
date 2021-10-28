@@ -14,6 +14,11 @@ public class HideButton : MonoBehaviour
                 Button.SetActive(true);
                 box.SetActive(true);
             }
+            else 
+            {
+                Button.SetActive(false);
+                box.SetActive(false);
+            }
         }
 
     }
