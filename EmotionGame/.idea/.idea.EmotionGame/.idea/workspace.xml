@@ -37,8 +37,8 @@
       <option value="$PROJECT_DIR$/Assets/PlayerPos.cs" />
       <option value="$PROJECT_DIR$/Assets/Checkpoint.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Checkpoint.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Player.cs" />
     </changedPaths>
   </component>
@@ -100,6 +100,7 @@
       <workItem from="1635355331235" duration="327000" />
       <workItem from="1635355937557" duration="369000" />
       <workItem from="1635356427227" duration="455000" />
+      <workItem from="1635436032427" duration="1050000" />
     </task>
     <servers />
   </component>

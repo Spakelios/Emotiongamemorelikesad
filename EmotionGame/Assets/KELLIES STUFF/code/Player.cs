@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            TakeDamage(90);
+            TakeDamage(25);
         }
 
         if (other.gameObject.CompareTag("Checkpoint"))
@@ -60,8 +60,12 @@ public class Player : MonoBehaviour
 
     void Respawn()
     {
-        transform.position = respawnPoint; 
-        currentHealth = maxHealth;
+        transform.position = respawnPoint;
+         regen();
+    }
 
+    void regen()
+    {
+        currentHealth = maxHealth;
     }
 }
