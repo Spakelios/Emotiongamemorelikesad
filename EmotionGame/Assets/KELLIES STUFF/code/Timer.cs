@@ -9,28 +9,20 @@ using UnityEngine.UIElements;
 public class Timer : MonoBehaviour
 {  
     public GameObject YouDied;
-    float currentTime = 0f;
-    float startingTime = 100f;
+    float currentTime = 100f;
+    float startingTime = 0f;
 
    [SerializeField] Text countdownText;
    
     void Start()
     {
         currentTime = startingTime;
-        if (currentTime <= 0f)
-        {
-            YouDied.SetActive(true);
-        }
     }
     
     void Update()
     {
-        currentTime -= 1 * Time.deltaTime; // decreases by once per secound
+        currentTime += 1 * Time.deltaTime; // decreases by once per secound
         countdownText.text = currentTime.ToString();
-        if (currentTime <= 0f)
-        {
-            YouDied.SetActive(true);
-        }
     }
 }
 
