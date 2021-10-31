@@ -39,6 +39,12 @@ public class Player : MonoBehaviour
         {
             Respawn();
         }
+
+        if (other.CompareTag("Health"))
+        { 
+            RegainHealth(100);
+            Destroy(other.gameObject);
+        }
     }
 
 
@@ -67,5 +73,12 @@ public class Player : MonoBehaviour
     void regen()
     {
         currentHealth = maxHealth;
+    }
+
+    void RegainHealth(int healthincrease)
+    {
+        currentHealth += healthincrease;
+        
+        healthBar.SetHealth(currentHealth);
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - GM
   - Checkpoint
+  - New tag
+  - Health
   layers:
   - Default
   - TransparentFX

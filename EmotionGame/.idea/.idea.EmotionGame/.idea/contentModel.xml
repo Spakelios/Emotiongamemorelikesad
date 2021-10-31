@@ -10,6 +10,12 @@
           <e p="CharacterController2D.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
         </e>
+        <e p="Erins Stuff" t="Include">
+          <e p="Enemy Animation and stuff" t="Include">
+            <e p="RotateToTarget.cs" t="Include" />
+            <e p="Tentacle.cs" t="Include" />
+          </e>
+        </e>
         <e p="Jo's Stuff" t="Include">
           <e p="HiddenArea.cs" t="Include" />
           <e p="VerticalPlatform.cs" t="Include" />
@@ -23,7 +29,6 @@
             <e p="DialogueTrigger.cs" t="Include" />
             <e p="GameMaster.cs" t="Include" />
             <e p="HealthBar.cs" t="Include" />
-            <e p="HideButton.cs" t="Include" />
             <e p="Hit.cs" t="Include" />
             <e p="ParallaxScript.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />

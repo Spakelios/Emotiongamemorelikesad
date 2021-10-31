@@ -28,7 +28,7 @@ public class DialogueManager : MonoBehaviour
     {
 
         
-            animator.SetBool("IsOpen", true);
+        box.SetActive(true);
 
             nameText.text = dialogue.name;
 
