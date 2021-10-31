@@ -42,8 +42,7 @@ public class Player : MonoBehaviour
 
         if (other.CompareTag("Health"))
         { 
-            RegainHealth(100);
-            Destroy(other.gameObject);
+            RegainHealth(maxHealth);
         }
     }
 
@@ -67,11 +66,6 @@ public class Player : MonoBehaviour
     void Respawn()
     {
         transform.position = respawnPoint;
-         regen();
-    }
-
-    void regen()
-    {
         currentHealth = maxHealth;
     }
 
