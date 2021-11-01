@@ -734,6 +734,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.15159804
       objectReference: {fileID: 0}
+    - target: {fileID: 3269502685471282166, guid: 7ae74838804592a4b9582aaeb9af4eec, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4f8badbb92a06047b28446c4cf111d6, type: 2}
     - target: {fileID: 3269502685471282167, guid: 7ae74838804592a4b9582aaeb9af4eec, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -968,9 +972,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c9ab4cd00ccae843927d84a291f76a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 5
+  rotationSpeed: 4
   target: {fileID: 471799266}
-  moveSpeed: 2
+  moveSpeed: 0
 --- !u!58 &472257069
 CircleCollider2D:
   m_ObjectHideFlags: 0
