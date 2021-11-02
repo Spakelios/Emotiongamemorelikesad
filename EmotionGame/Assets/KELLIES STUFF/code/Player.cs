@@ -53,6 +53,11 @@ public class Player : MonoBehaviour
         {
             TakeDamage(10);
         }
+        
+        if (gameObject.CompareTag("Health"))
+        { 
+            RegainHealth(maxHealth);
+        }
     }
 
     void TakeDamage(int damage)

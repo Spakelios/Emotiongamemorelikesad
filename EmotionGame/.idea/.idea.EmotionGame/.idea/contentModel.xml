@@ -6,6 +6,7 @@
     <e p="C:\Users\kelme\Documents\GitHub\Emotiongamemorelikesad\EmotionGame" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AudioManager.cs" t="Include" />
         <e p="Code" t="Include">
           <e p="CharacterController2D.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
@@ -72,6 +73,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="TyperWriterEffect.cs" t="Include" />
       </e>
       <e p="EmotionGame.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

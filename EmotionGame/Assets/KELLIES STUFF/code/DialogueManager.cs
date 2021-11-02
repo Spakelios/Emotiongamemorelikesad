@@ -14,13 +14,15 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public GameObject box;
-    public Animator animator;
+    public  AudioSource TypeSound;
+
 
     private Queue<string> sentences;
 
     // Use this for initialization
     void Start()
     {
+        TypeSound = GetComponent<AudioSource>();
         sentences = new Queue<string>();
     }
 
@@ -59,12 +61,14 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence(string sentence)
     {
+        TypeSound.Play();
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
             yield return null;
         }
+        TypeSound.Stop();
     }
 
     void EndDialogue()

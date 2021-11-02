@@ -8,6 +8,6 @@ public class STARTGAME: MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Parallax test");
+        SceneManager.LoadScene("This");
     }
 }
