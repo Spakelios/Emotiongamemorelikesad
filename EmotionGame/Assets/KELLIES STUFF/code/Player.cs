@@ -39,39 +39,28 @@ public class Player : MonoBehaviour
         {
             Respawn();
         }
-    }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (gameObject.CompareTag("Health"))
-        { 
-            RegainHealth(98);
+        if (other.CompareTag("Health"))
+        {
+            RegainHealth(50);
         }
+        
     }
 
 
     void Update()
     {
-        if (gameObject.CompareTag("Health"))
-        { 
-            RegainHealth(98);
-        }
-
         if (gameObject.CompareTag("Enemy"))
         {
             TakeDamage(10);
         }
         
+        if (gameObject.CompareTag("Health"))
+        {
+            RegainHealth(50);
+        }
     }
 
-    
-    void RegainHealth(int healthincrease)
-    {
-        currentHealth += healthincrease;
-        
-        healthBar.SetHealth(currentHealth);
-    }
-    
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -84,5 +73,12 @@ public class Player : MonoBehaviour
     {
         transform.position = respawnPoint;
         currentHealth = maxHealth;
+    }
+
+    void RegainHealth(int healthincrease)
+    {
+        currentHealth += healthincrease;
+        
+        healthBar.SetHealth(currentHealth);
     }
 }

@@ -9,6 +9,6 @@ public class RESTART : MonoBehaviour
    public void Reset()
    {
        Scene scene = SceneManager.GetActiveScene(); 
-       SceneManager.LoadScene("Parallax test");
+       SceneManager.LoadScene("This");
    }
 }
