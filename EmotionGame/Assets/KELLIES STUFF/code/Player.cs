@@ -71,6 +71,7 @@ public class Player : MonoBehaviour
         if (gameObject.CompareTag("Health"))
         {
             RegainHealth(50);
+            
         }
     }
 
@@ -93,7 +94,7 @@ public class Player : MonoBehaviour
     void RegainHealth(int healthincrease)
     {
         currentHealth += healthincrease;
-        
+        currentHealthmat -= 0.02f;
         healthBar.SetHealth(currentHealth);
     }
 }
