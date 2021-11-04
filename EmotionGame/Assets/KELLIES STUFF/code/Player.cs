@@ -11,17 +11,18 @@ public class Player : MonoBehaviour
 
     public Material HealthMat;
     
-    public int maxHealth;
-    public int currentHealth;
+    public float maxHealth;
+    public float currentHealth;
+    public float currentHealthmat = 0;
     public Vector3 respawnPoint;
 
-    public HealthBar healthBar;
+ //   public HealthBar healthBar;
 
     private void Awake()
     {
         currentHealth = maxHealth;
-        HealthMat.SetFloat("_health",0);
-        healthBar.SetMaxHealth(maxHealth);
+        
+        //healthBar.SetMaxHealth(maxHealth);
     }
 
    
@@ -56,34 +57,36 @@ public class Player : MonoBehaviour
 
 
     void Update()
-    {
+    { Debug.Log(HealthMat.GetFloat("_health"));
         if (gameObject.CompareTag("Health"))
         { 
             RegainHealth(98);
         }
-
+        HealthMat.SetFloat("_health", currentHealthmat);
         if (gameObject.CompareTag("Enemy"))
         {
-            TakeDamage(10);
+          //  TakeDamage(1);
+
             
         }
         
+
     }
 
     
     void RegainHealth(int healthincrease)
     {
         currentHealth += healthincrease;
-        
-        healthBar.SetHealth(currentHealth);
+        currentHealthmat -= 0.02f;
+        //  healthBar.SetHealth(currentHealth);
     }
     
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        currentHealthmat += 0.1f;
+        //  healthBar.SetHealth(currentHealth);
 
-        healthBar.SetHealth(currentHealth);
-        HealthMat.SetFloat("_health", +1);
 
     }
 
@@ -91,5 +94,6 @@ public class Player : MonoBehaviour
     {
         transform.position = respawnPoint;
         currentHealth = maxHealth;
+        currentHealthmat =0 ;
     }
 }
