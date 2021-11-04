@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            TakeDamage(25);
+            TakeDamage(10);
         }
 
         if (other.gameObject.CompareTag("Checkpoint"))
@@ -39,27 +39,39 @@ public class Player : MonoBehaviour
         {
             Respawn();
         }
+    }
 
-        if (other.CompareTag("Health"))
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (gameObject.CompareTag("Health"))
         { 
-            RegainHealth(maxHealth);
+            RegainHealth(98);
         }
     }
 
 
     void Update()
     {
+        if (gameObject.CompareTag("Health"))
+        { 
+            RegainHealth(98);
+        }
+
         if (gameObject.CompareTag("Enemy"))
         {
             TakeDamage(10);
         }
         
-        if (gameObject.CompareTag("Health"))
-        { 
-            RegainHealth(maxHealth);
-        }
     }
 
+    
+    void RegainHealth(int healthincrease)
+    {
+        currentHealth += healthincrease;
+        
+        healthBar.SetHealth(currentHealth);
+    }
+    
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -72,12 +84,5 @@ public class Player : MonoBehaviour
     {
         transform.position = respawnPoint;
         currentHealth = maxHealth;
-    }
-
-    void RegainHealth(int healthincrease)
-    {
-        currentHealth += healthincrease;
-        
-        healthBar.SetHealth(currentHealth);
     }
 }
