@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/KELLIES STUFF/scenes/playtest scene.unity
     guid: f41641f40ba87494292923f108422fb5
   - enabled: 1
@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/KELLIES STUFF/scenes/START SCREEN.unity
     guid: 7e7064fb0efe2c44d9107a2cf60428bc
-  - enabled: 1
+  - enabled: 0
     path: Assets/KELLIES STUFF/scenes/Parallax test.unity
     guid: 6eb8a7c59c49d754ca2bd157fda6be34
   - enabled: 1
