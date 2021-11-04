@@ -10,6 +10,7 @@
           <e p="CharacterController2D.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
         </e>
+        <e p="EndGame.cs" t="Include" />
         <e p="Erins Stuff" t="Include">
           <e p="Enemy Animation and stuff" t="Include">
             <e p="RotateToTarget.cs" t="Include" />
@@ -22,6 +23,7 @@
         </e>
         <e p="KELLIES STUFF" t="Include">
           <e p="Code" t="Include">
+            <e p="AudioManager.cs" t="Include" />
             <e p="Checkpoint.cs" t="Include" />
             <e p="Dialogue.cs" t="Include" />
             <e p="DialogueAnimation.cs" t="Include" />
@@ -39,6 +41,7 @@
             <e p="STARTGAME.cs" t="Include" />
             <e p="Timer.cs" t="Include" />
             <e p="triggerButtonWithKey.cs" t="Include" />
+            <e p="TyperWriterEffect.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

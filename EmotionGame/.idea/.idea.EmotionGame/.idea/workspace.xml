@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/KELLIES STUFF/code/GameMaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -40,9 +41,13 @@
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/HideButton.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueTrigger.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Regen.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/STARTGAME.cs" />
+      <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/TyperWriterEffect.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/EndGame.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />
@@ -108,6 +113,9 @@
       <workItem from="1635442508355" duration="869000" />
       <workItem from="1635694289165" duration="3235000" />
       <workItem from="1635716191846" duration="121000" />
+      <workItem from="1635862512758" duration="6428000" />
+      <workItem from="1636015723475" duration="462000" />
+      <workItem from="1636021741813" duration="306000" />
     </task>
     <servers />
   </component>

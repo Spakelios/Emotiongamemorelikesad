@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/KELLIES STUFF/scenes/Parallax test.unity
     guid: 6eb8a7c59c49d754ca2bd157fda6be34
+  - enabled: 1
+    path: Assets/KELLIES STUFF/scenes/This.unity
+    guid: 9ffb3fd7851fc7f449e1227fa03ed666
   m_configObjects: {}
