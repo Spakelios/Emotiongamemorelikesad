@@ -18,8 +18,10 @@
           </e>
         </e>
         <e p="Jo's Stuff" t="Include">
-          <e p="HiddenArea.cs" t="Include" />
-          <e p="VerticalPlatform.cs" t="Include" />
+          <e p="Code" t="Include">
+            <e p="HiddenArea.cs" t="Include" />
+            <e p="VerticalPlatform.cs" t="Include" />
+          </e>
         </e>
         <e p="KELLIES STUFF" t="Include">
           <e p="Code" t="Include">
