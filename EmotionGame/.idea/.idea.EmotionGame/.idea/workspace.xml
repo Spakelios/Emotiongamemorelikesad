@@ -47,6 +47,7 @@
       <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
       <option value="$PROJECT_DIR$/Assets/TyperWriterEffect.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/EndGame.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />
@@ -114,6 +115,7 @@
       <workItem from="1635716191846" duration="121000" />
       <workItem from="1635862512758" duration="6428000" />
       <workItem from="1636015723475" duration="462000" />
+      <workItem from="1636021741813" duration="306000" />
     </task>
     <servers />
   </component>
