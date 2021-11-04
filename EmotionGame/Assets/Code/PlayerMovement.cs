@@ -10,26 +10,38 @@ public class PlayerMovement : MonoBehaviour
 
     float horizontalMove = 0f;
 
+    public Rigidbody2D rb;
+
     public float runspeed = 40f;
+
+    float verticalMove;
 
     bool jump = false;
 
     bool crouch = false;
 
+   
     // Update is called once per frame
     void Update()
     {
+
+        verticalMove = rb.velocity.y;
         
+
         horizontalMove = Input.GetAxisRaw("Horizontal") * runspeed;
 
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-        
-        Input.GetAxisRaw("Vertical");
+
+        //verticalMove = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("VertSpeed", verticalMove);
 
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            
+            animator.SetBool("Jump", true);
         }
 
         if(Input.GetButtonDown("Crouch"))
@@ -50,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
         //movement for character im gonna actually vomit.
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
-
+        animator.SetBool("Jump",false);
 
     }
 }
