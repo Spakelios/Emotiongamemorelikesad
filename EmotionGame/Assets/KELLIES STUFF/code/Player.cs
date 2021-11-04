@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+
+    public Material HealthMat;
     
     public int maxHealth;
     public int currentHealth;
@@ -18,8 +20,11 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         currentHealth = maxHealth;
+        HealthMat.SetFloat("_health",0);
         healthBar.SetMaxHealth(maxHealth);
     }
+
+   
 
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -53,6 +58,7 @@ public class Player : MonoBehaviour
         if (gameObject.CompareTag("Enemy"))
         {
             TakeDamage(10);
+            
         }
         
         if (gameObject.CompareTag("Health"))
@@ -66,6 +72,7 @@ public class Player : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
+        HealthMat.SetFloat("_health", +1);
 
     }
 
