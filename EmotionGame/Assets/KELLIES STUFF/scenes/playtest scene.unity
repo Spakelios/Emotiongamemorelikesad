@@ -773,11 +773,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6323182301723453959, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6323182301723453959, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6323182301816327682, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -789,7 +789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6323182302039069670, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6811671998391788505, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: dialogue.sentences.Array.size
