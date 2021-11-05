@@ -206,9 +206,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 399302229bb47e648a3f9d9aaf796989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HealthMat: {fileID: 0}
   maxHealth: 100
   currentHealth: 100
-  healthBar: {fileID: 407230671}
+  currentHealthmat: 0
+  respawnPoint: {x: 0, y: 0, z: 0}
 --- !u!1001 &359641584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -302,17 +304,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ae74838804592a4b9582aaeb9af4eec, type: 3}
---- !u!114 &407230671 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6323182302039069668, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
-  m_PrefabInstance: {fileID: 654600508}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d08ac6ee59daf74c9bd43bb653b7679, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &423212914
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,11 +773,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6323182301723453959, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6323182301723453959, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6323182301816327682, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -795,6 +786,10 @@ PrefabInstance:
     - target: {fileID: 6323182301816327682, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 156
+      objectReference: {fileID: 0}
+    - target: {fileID: 6323182302039069670, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6811671998391788505, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
       propertyPath: dialogue.sentences.Array.size
@@ -1099,7 +1094,7 @@ PrefabInstance:
     - target: {fileID: 4763382492060684498, guid: 0cb5ee98bb81f2b4aac01e4b20727281, type: 3}
       propertyPath: button
       value: 
-      objectReference: {fileID: 992513609}
+      objectReference: {fileID: 0}
     - target: {fileID: 4763382492060684498, guid: 0cb5ee98bb81f2b4aac01e4b20727281, type: 3}
       propertyPath: animator
       value: 
@@ -14836,11 +14831,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &992513609 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6811671998391788502, guid: 6fa7b62dbd40a84428f3f01556f55622, type: 3}
-  m_PrefabInstance: {fileID: 654600508}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1162336412
 GameObject:
   m_ObjectHideFlags: 3

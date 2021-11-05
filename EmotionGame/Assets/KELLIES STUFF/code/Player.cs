@@ -95,6 +95,6 @@ public class Player : MonoBehaviour
     {
         currentHealth += healthincrease;
         currentHealthmat -= 0.02f;
-        healthBar.SetHealth(currentHealth);
+        //healthBar.SetHealth(currentHealth);
     }
 }
