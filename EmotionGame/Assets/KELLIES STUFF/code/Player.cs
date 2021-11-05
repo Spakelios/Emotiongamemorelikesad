@@ -12,6 +12,10 @@ public class Player : MonoBehaviour
 
     public Material HealthMat;
     public GameObject image;
+    public AudioSource Chase;
+    public AudioSource Safe;
+    public AudioSource main;
+   
     
     public float maxHealth;
     public float currentHealth;
