@@ -18,7 +18,8 @@ public class Audiostuff : MonoBehaviour
 
     private void Update()
     {
-        if (death == 600)
+        death++;
+        if (death == 30)
         {
             Destroy(gameObject);
         }

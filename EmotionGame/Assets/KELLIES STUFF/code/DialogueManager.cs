@@ -29,6 +29,7 @@ public class DialogueManager : MonoBehaviour
     {
         TypeSound = GetComponent<AudioSource>();
         sentences = new Queue<string>();
+        
     }
 
     public void StartDialogue(Dialogue dialogue)
