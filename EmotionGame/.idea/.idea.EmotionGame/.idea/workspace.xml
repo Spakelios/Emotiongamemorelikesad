@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff14ad1c-2f3c-4cf6-9221-fe3b6a50a3ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmotionGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmotionGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Jo's Stuff/Code/HiddenArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jo's Stuff/Code/HiddenArea.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Jo's Stuff/Code/VerticalPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jo's Stuff/Code/VerticalPlatform.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +13,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/KELLIES STUFF/code/GameMaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Audiostuff.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/boxthing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -35,7 +35,6 @@
       <option value="$PROJECT_DIR$/Assets/RESTART.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/GameMaster.cs" />
       <option value="$PROJECT_DIR$/Assets/RestartFromCheckpoint.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/PauseMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Died.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/RESTART.cs" />
       <option value="$PROJECT_DIR$/Assets/PlayerPos.cs" />
@@ -49,12 +48,15 @@
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/STARTGAME.cs" />
       <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
       <option value="$PROJECT_DIR$/Assets/TyperWriterEffect.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
       <option value="$PROJECT_DIR$/Assets/EndGame.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/RESTART.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Jo's Stuff/Code/HiddenArea.cs" />
       <option value="$PROJECT_DIR$/Assets/Jo's Stuff/Code/VerticalPlatform.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Audiostuff.cs" />
+      <option value="$PROJECT_DIR$/Assets/boxthing.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/PauseMenu.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />

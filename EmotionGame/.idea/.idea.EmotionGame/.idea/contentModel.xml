@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Audiostuff.cs" t="Include" />
+        <e p="boxthing.cs" t="Include" />
         <e p="CellCollision.cs" t="Include" />
         <e p="Code" t="Include">
           <e p="CharacterController2D.cs" t="Include" />
@@ -32,6 +33,7 @@
             <e p="DialogueAnimation.cs" t="Include" />
             <e p="DialogueManager.cs" t="Include" />
             <e p="DialogueTrigger.cs" t="Include" />
+            <e p="End.cs" t="Include" />
             <e p="GameMaster.cs" t="Include" />
             <e p="HealthBar.cs" t="Include" />
             <e p="Hit.cs" t="Include" />
@@ -44,7 +46,6 @@
             <e p="STARTGAME.cs" t="Include" />
             <e p="Timer.cs" t="Include" />
             <e p="triggerButtonWithKey.cs" t="Include" />
-            <e p="TyperWriterEffect.cs" t="Include" />
           </e>
           <e p="EndGame.cs" t="Include" />
         </e>
