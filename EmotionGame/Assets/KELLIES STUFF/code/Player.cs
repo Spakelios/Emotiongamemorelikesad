@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
         {
             TakeDamage(10);
         }
-
+        
         if (other.gameObject.CompareTag("Checkpoint"))
         {
             respawnPoint = other.transform.position;
