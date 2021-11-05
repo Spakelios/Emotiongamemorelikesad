@@ -4,12 +4,14 @@ using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 
 public class Player : MonoBehaviour
 {
 
     public Material HealthMat;
+    public GameObject image;
     
     public float maxHealth;
     public float currentHealth;
@@ -50,8 +52,8 @@ public class Player : MonoBehaviour
         {
             RegainHealth(50);
         }
-        
     }
+    
 
 
     void Update()

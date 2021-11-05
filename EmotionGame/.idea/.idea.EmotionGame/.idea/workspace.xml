@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff14ad1c-2f3c-4cf6-9221-fe3b6a50a3ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/KELLIES STUFF/scenes/This.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KELLIES STUFF/scenes/This.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Break.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Break.shadergraph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Swordmaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Swordmaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/KELLIES STUFF/code/GameMaster.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Audiostuff.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.6.0/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -50,10 +49,12 @@
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/STARTGAME.cs" />
       <option value="$PROJECT_DIR$/Assets/AudioManager.cs" />
       <option value="$PROJECT_DIR$/Assets/TyperWriterEffect.cs" />
-      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
       <option value="$PROJECT_DIR$/Assets/EndGame.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/RESTART.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Audiostuff.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/DialogueManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/TyperWriterEffect.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />
