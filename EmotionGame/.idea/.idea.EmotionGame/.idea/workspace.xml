@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff14ad1c-2f3c-4cf6-9221-fe3b6a50a3ca" name="Default Changelist" comment="" />
+    <list default="true" id="ff14ad1c-2f3c-4cf6-9221-fe3b6a50a3ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/KELLIES STUFF/scenes/This.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KELLIES STUFF/scenes/This.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Break.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Break.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Swordmaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Swordmaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +122,7 @@
       <workItem from="1636015723475" duration="462000" />
       <workItem from="1636021741813" duration="504000" />
       <workItem from="1636052901512" duration="6390000" />
-      <workItem from="1636127372014" duration="12000" />
+      <workItem from="1636127372014" duration="612000" />
     </task>
     <servers />
   </component>
