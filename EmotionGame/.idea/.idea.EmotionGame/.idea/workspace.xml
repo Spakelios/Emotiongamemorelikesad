@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ff14ad1c-2f3c-4cf6-9221-fe3b6a50a3ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EmotionGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmotionGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jo's Stuff/Code/HiddenArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jo's Stuff/Code/HiddenArea.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jo's Stuff/Code/VerticalPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jo's Stuff/Code/VerticalPlatform.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,8 @@
       <option value="$PROJECT_DIR$/Assets/EndGame.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/RESTART.cs" />
       <option value="$PROJECT_DIR$/Assets/KELLIES STUFF/code/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Jo's Stuff/Code/HiddenArea.cs" />
+      <option value="$PROJECT_DIR$/Assets/Jo's Stuff/Code/VerticalPlatform.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1zmivTIqzR11xFzM9myzZURdhXr" />
@@ -128,6 +132,7 @@
       <workItem from="1636052901512" duration="6390000" />
       <workItem from="1636127372014" duration="1208000" />
       <workItem from="1636134290389" duration="2000" />
+      <workItem from="1636134708982" duration="1844000" />
     </task>
     <servers />
   </component>

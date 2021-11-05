@@ -9,7 +9,7 @@ public class HiddenArea : MonoBehaviour
 
     // Start is called before the first frame update
 
-    void OnTriggerEnter2D(Collider2D cologne)
+    void OnTriggerStay2D(Collider2D cologne)
     {
         if (cologne.gameObject.tag == "Player")
         {

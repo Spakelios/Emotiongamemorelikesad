@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 6500538415256153555}
   - component: {fileID: 6500538415256153552}
   - component: {fileID: 1192555956}
-  - component: {fileID: 1603884256}
   m_Layer: 3
   m_Name: Phase-Through Platform
   m_TagString: Untagged
@@ -132,19 +131,6 @@ PlatformEffector2D:
   m_UseSideBounce: 0
   m_SideArc: 1
 --- !u!114 &1192555956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6500538415256153553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93175f96cdc3c634fb9ee7e74afd2bc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waitTime: 0
---- !u!114 &1603884256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
